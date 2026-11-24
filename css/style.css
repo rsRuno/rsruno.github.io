@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family:"Roboto Mono", monospace;
+
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    
+}
+
+.h50{
+    background-color: rgb(0, 12, 9);
+    padding: 15px;
+    height: 50px;
+
+    font-size: 0.85rem;
+
+    color: white;
+}
+
+.h400 {
+    height: 100vh;
+
+    padding: 10px;
+    overflow: hidden;
+
+    font-size: 1rem;
+}
+
+.h300 {
+    height: 70vh;
+
+    padding: 10px;
+    overflow: hidden;
+
+    font-size: 1rem;
+}
+
+
+
+.h400-a {
+    height: 100vh;
+    overflow: hidden;
+
+    padding: 2rem;
+
+    font-size: 1.2rem;
+}
+
+.h400-a h1{
+    font-size: 5rem;
+}
+
+.h400-a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+select{
+    background-color: rgba(255,255,255, 0.1);
+    border: solid 1px rgb(168, 168, 168);
+
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+select option {
+    background-color: white;
+    color: black;
+}
+
+select option:hover {
+    background-color: rgb(0, 12, 9);
+}
+
+.projeto-item:hover{
+    background-color: rgb(0, 12, 9);
+    color: white;
+}
+
+
+.social-icon {
+    height: 30px;
+    width: 30px;
+
+    filter: grayscale(100%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.backtop:hover {
+   text-decoration: underline;
+}
